@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import NewRepoForm from '../components/NewRepoForm';
 
 class Dashboard extends Component {
   render() {
     return (
-      <h1>Dashboard</h1>
+      <div>
+        <h1>Dashboard</h1>
+        <NewRepoForm />
+      </div>
     );
   }
 }
