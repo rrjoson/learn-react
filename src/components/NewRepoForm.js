@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import { Input } from 'antd';
 
 class NewRepoForm extends Component {
   render() {
     return (
-      <div>
-        <h1>NewRepoForm</h1>
-        <Input placeholder="Enter your userName" />
+      <div className="section">
+        <form>
+          <div className="field">
+            <label className="label">Add Repository</label>
+            <p className="control">
+              <input className="input is-large" type="repoName" placeholder="Enter Repository Name"/>
+            </p>
+          </div>
+        </form>
       </div>
     );
   }
