@@ -2,6 +2,7 @@
   "name": "learn-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rrjoson.github.io/learn-react/",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5"
