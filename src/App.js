@@ -5,7 +5,7 @@ import Dashboard from 'pages/Dashboard'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container">
         <Header />
         <Dashboard />
       </div>
