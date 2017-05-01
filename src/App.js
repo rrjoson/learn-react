@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import Dashboard from './pages/Dashboard'
+import Header from 'components/Header';
+import Dashboard from 'pages/Dashboard'
 
 class App extends Component {
   render() {
