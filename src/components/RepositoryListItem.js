@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import autobind from 'react-autobind';
+
+import { selectRepository } from '../actions/index';
 
 import { fetchRepository } from 'api';
 
@@ -32,7 +35,7 @@ class RepositoryListItem extends Component {
     } = this.state.repository;
 
     return (
-      <div className="box">
+      <div className="box" onClick={() => this.props.selectRepository(full_name)}>
         <article className="media">
           <div className="media-left">
             <figure className="image is-64x64">
@@ -86,4 +89,4 @@ class RepositoryListItem extends Component {
   }
 }
 
-export default RepositoryListItem;
+export default connect(null, { selectRepository })(RepositoryListItem);

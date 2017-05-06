@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NewRepoForm from 'components/NewRepoForm';
-import RepositoryList from 'components/RepositoryList';
+import RepositoryList from 'containers/RepositoryList';
 
 class Dashboard extends Component {
   render() {
